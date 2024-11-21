@@ -16,6 +16,7 @@ import "../components/Navbar.css";
 function Navbar() {
     return (
     <nav className="navbar">
+          
             <img className="logo" src={logo} alt="Netflix Logo" />
             <img className="decouverte" src={decouverte} alt="Discovery Icon"/>
             <img className="serie" src={serie} alt="Series Icon" />
@@ -28,6 +29,7 @@ function Navbar() {
             <img className="notif" src={notif} alt="Notifications Icon" /> 
             <img className="avatar" src={avatar} alt="Avatar Icon" /> 
             <img className="deroulant" src={deroulant} alt="Dropdown Icon" /> 
+         
         </nav>  
          
     );
