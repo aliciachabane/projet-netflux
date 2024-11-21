@@ -1,5 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Assure que les paddings et les bordures sont inclus dans la largeur et la hauteur totales */
+}
 .navbar {
-    background-color: FFFFFF; /* Couleur blanche avec une légère transparence */
+    background-color: FFFFFF;/* Couleur blanche avec une légère transparence */
     background-repeat: no-repeat;
     background-size: cover;
     height: 70px;
@@ -9,8 +14,7 @@
     position: absolute; /* Position absolue pour être au-dessus du header */
     top: 0; /* Positionne la navbar en haut de la page */
     z-index: 10; /* Assure que la navbar est au-dessus des autres éléments */
-    padding: 0 20px; /* Ajoute un padding pour que le contenu ne touche pas les bords */
-    margin: 0; /* Évite les marges ajoutées par défaut */
+  
 }
 
 .logo {

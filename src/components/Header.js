@@ -1,11 +1,13 @@
 import React from "react";
-import "../components/Header.css";
+import "../assets/Header.css";
 
 function Header() {
     return (
         <header className="head">
-           
-        </header>  
+            <div className="container">
+                
+            </div>
+        </header>
     );
 }
 
