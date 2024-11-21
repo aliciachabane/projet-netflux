@@ -1,0 +1,87 @@
+.navbar {
+    background-color: FFFFFF; /* Couleur blanche avec une légère transparence */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 1440px; /* Largeur spécifique */
+    display: flex;
+    align-items: center;
+    position: absolute; /* Position absolue pour être au-dessus du header */
+    top: 0; /* Positionne la navbar en haut de la page */
+    z-index: 10; /* Assure que la navbar est au-dessus des autres éléments */
+    padding: 0 20px; /* Ajoute un padding pour que le contenu ne touche pas les bords */
+    margin: 0; /* Évite les marges ajoutées par défaut */
+}
+
+.logo {
+    height: 34px;
+    width: 123px;
+    margin-left: 60px;
+}
+
+.decouverte {
+    height: 19px;
+    width: 86px;
+    margin-left: 45px;
+    margin-right: 16px;
+} 
+
+.serie {
+    height: 19px;
+    width: 69px;
+    margin-left: 16px;
+    margin-right: 15px;
+}
+.film {
+    height: 19px;
+    width: 40px;
+    margin-left: 15px;
+    margin-right: 14px;
+}
+.programme {
+    height: 19px;
+    width: 171px;
+    margin-left: 14px;
+    margin-right: 7px;
+}
+.ajout {
+    height: 19px;
+    width: 108px;
+    margin-left: 7px;
+    margin-right: 11px;
+}
+.liste {
+    height: 19px;
+    width: 60px;
+    margin-left: 7px;
+    margin-right: 294px;
+}
+.search {
+    height: 30px;
+    width: 30px;
+    margin-right: 16px;
+}
+.jeunesse {
+    height: 19px;
+    width: 74px;
+    margin-right: 32px;
+    margin-left: 16px;
+}
+.notif {
+    height: 30px;
+    width: 30px;
+    margin-left: 32px;
+    margin-right: 24px;
+}
+.avatar {
+    height: 34px;
+    width: 33px;
+    margin-left: 32px;
+    margin-right: 10px;
+}
+.deroulant {
+    height: 6px;
+    width:12px ;
+    margin-left: 10px;
+    margin-right: 60px;
+}
