@@ -9,8 +9,8 @@ import netdecou from "../assets/Netflix Découverte -.svg"
 import desc from "../assets/Andrzej Wajda, Roman.svg";
 import filmlist from "../assets/FilmList.svg"
 import tab from "../assets/Tabs.svg"
-import programme from "../assets/programme.svg"
-import arrow from "../assets/ic-arrow copy.svg"
+import pro2 from "../assets/Third Row - Netflix Originals.svg"
+import categori from "../assets/Categories.svg"
 import "../components/Content.css";
 
 function Body() {
@@ -28,8 +28,9 @@ function Body() {
                 <img className="desc" src={desc} alt="desc"/>
                 <img className="filmlist" src={filmlist} alt="filmlist"/>
                 <img className="tab" src={tab} alt="tab"/>
-                <img className="programme" src={programme} alt="programme"/> 
-                <img className="arrow" src={arrow} alt="arrow"/> 
+                <img className="pro2" src={pro2} alt="programme"/> 
+                <img className="categori" src={categori} alt="categori"/> 
+
            
            
            

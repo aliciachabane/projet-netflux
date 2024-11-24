@@ -90,11 +90,15 @@ body {
     height: 43px;
     margin-top: 30px;
 }
-.programme{
-    width: 326px;
-    height: 24px;
+.pro2{
+    width: 1544px;
+    height: 469px;
+    margin-top: 55px;
+    margin-left: 59px;
 }
-.arrow{
-    width: 5.25px;
-    height: 13.47px;
-} 
+.categori{
+    width: 1458px;
+    height: 158px;
+    margin-top: 55px;
+    margin-left: 60px;
+}
