@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(14, 14, 14);
+    margin: 0; 
+    padding: 0; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    overflow-x: auto;
+    width: 1785px;
+    height: 1894px;
+}
+
+.revoir {
+    width: 59px;
+    height: 24px;
+    margin-left: 60px;
+    align-items: center;
+}
+
+.Firstrow, .Secondrow {
+    width: 1458px;
+    height: 158px;
+  
+    overflow-x: auto; 
+    margin-right: 78px;
+    margin-left: 60px; 
+}
+
+.back {
+    background-image: url('../assets/pol.svg');
+    background-size: cover;
+    width: 100vw;
+    min-width: 1440px; 
+    height: 462px; 
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    background-position: center; /* L'image est centrée */
+    background-repeat: no-repeat;
+    position: relative;
+}
+.close{
+    width: 18px;
+    height: 18px;
+    margin-left: 1360px;
+    margin-right: 62px;
+    margin-top: 30px;
+
+
+
+}
+.ageor {
+    width: 462.96px; 
+    height: 38.12px; 
+    margin-top: 67px;
+    margin-left: 60px;
+}
+
+.red {
+    width: 464px; 
+    height: 61px; 
+    margin-top: 32.88px;
+    margin-left: 60px;
+}
+
+.netdecou{
+    width: 402px;
+    height: 31px;
+    margin-left: 60px;
+    margin-top: 26px;
+}
+.desc {
+    width: 580px;
+    height: 84px;
+    margin-top: 8px;
+    margin-left: 60px;
+}
+.filmlist{
+    width: 1725px;
+    height: 255px;
+    margin-left: 60px;
+    margin-top: 55px; 
+    align-items: start;
+}
+.tab{
+    width: 1520px;
+    height: 43px;
+    margin-top: 30px;
+}
+.programme{
+    width: 326px;
+    height: 24px;
+}
+.arrow{
+    width: 5.25px;
+    height: 13.47px;
+} 
