@@ -1,5 +1,5 @@
 .head {
-    background-image: url('../assets/hero.svg');
+    background-image: url('../assets-header/hero.svg');
     width: 100vw; /* Toujours adapter à la largeur de l'écran */
     min-width: 1440px; /* Largeur minimale assurée */
     height: 646px; /* Hauteur fixe */
@@ -56,7 +56,8 @@
     width: 155px;
     height: 40px;
     background: transparent;
-    margin-right: 10px;         
+    margin-right: 15px; 
+          
  }
 /* Style de l'image my-list */
 .my-list {

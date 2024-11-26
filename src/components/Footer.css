@@ -1,3 +1,55 @@
-footer{
-    
+.footer{
+   width: 932px; 
+   height: 249px;
+   margin-left: 146px;
+   margin-right: 362px;
+   margin-top: 125px;
+   margin-bottom: 60px;
+   display: flex;
+   flex-direction: row;
+
+}
+
+.Col{
+    display: flex;
+    flex-direction: column;
+    margin-left: 149px;
+}
+.social{
+    width: 180px;
+    height: 26px;
+    margin-top: 125px;
+    margin-bottom: 22px;
+}
+.column1{
+    width: 123px;
+    height: 109px;
+    margin-bottom: 30px;
+}
+.under{
+    width: 130px;
+    height: 62px;
+    margin-bottom: 60px;
+}
+.column2{
+    width: 143px;
+    height: 78px;
+    margin-left: 124px;
+    margin-right: 124px;
+    margin-top: 174px;
+    margin-bottom: 182px;
+}
+.column3{
+    width: 147px;
+    height: 78px;
+    margin-right: 124px;
+    margin-top: 174px;
+    margin-bottom: 182px;
+}
+.column4{
+    width: 144px;
+    height: 78px;
+    margin-right: 362px;
+    margin-top: 174px;
+    margin-bottom: 182px;
 }

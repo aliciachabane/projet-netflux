@@ -1,15 +1,13 @@
 body {
     background-color: rgb(14, 14, 14);
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    overflow-x: scroll;
-    overflow-x: auto;
-    width: 1785px;
+    min-width: 1785px;
     height: 1894px;
 }
 
@@ -17,88 +15,164 @@ body {
     width: 59px;
     height: 24px;
     margin-left: 60px;
+    margin-bottom: 10px;
     align-items: center;
 }
 
 .Firstrow, .Secondrow {
+    display: flex;
     width: 1458px;
     height: 158px;
-  
-    overflow-x: auto; 
-    margin-right: 78px;
-    margin-left: 60px; 
+    overflow-x: auto; /* Permet le défilement horizontal indépendant */
+    margin-left: 60px;
+    scrollbar-width: none; /* Pour masquer la barre de défilement dans Firefox */
+    -ms-overflow-style: none; /* Pour masquer la barre de défilement dans Internet Explorer et Edge */
+}
+
+.Firstrow::-webkit-scrollbar, .Secondrow::-webkit-scrollbar {
+    display: none; /* Pour masquer la barre de défilement dans Chrome, Safari et Opera */
+}
+
+.Firstrow img, .Secondrow img {
+    min-width: 100%; /* Assure que les images sont plus larges que le conteneur pour activer le défilement */
+    height: auto;
 }
 
 .back {
-    background-image: url('../assets/pol.svg');
+    background-image: url('../assets-content/pol.svg');
     background-size: cover;
     width: 100vw;
-    min-width: 1440px; 
-    height: 462px; 
+    min-width: 1440px;
+    height: 462px;
     margin-top: 55px;
     display: flex;
     flex-direction: column;
-    background-position: center; /* L'image est centrée */
+    background-position: center;
     background-repeat: no-repeat;
     position: relative;
 }
-.close{
+
+.close {
     width: 18px;
     height: 18px;
     margin-left: 1360px;
     margin-right: 62px;
     margin-top: 30px;
-
-
-
 }
+
 .ageor {
-    width: 462.96px; 
-    height: 38.12px; 
+    width: 462.96px;
+    height: 38.12px;
     margin-top: 67px;
     margin-left: 60px;
 }
 
 .red {
-    width: 464px; 
-    height: 61px; 
+    width: 464px;
+    height: 61px;
     margin-top: 32.88px;
     margin-left: 60px;
 }
 
-.netdecou{
+.netdecou {
     width: 402px;
     height: 31px;
     margin-left: 60px;
     margin-top: 26px;
 }
+
 .desc {
     width: 580px;
     height: 84px;
     margin-top: 8px;
     margin-left: 60px;
 }
-.filmlist{
-    width: 1725px;
-    height: 255px;
-    margin-left: 60px;
-    margin-top: 55px; 
-    align-items: start;
-}
-.tab{
-    width: 1520px;
-    height: 43px;
-    margin-top: 30px;
-}
-.pro2{
-    width: 1544px;
-    height: 469px;
+
+.filmlist {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
     margin-top: 55px;
+    margin-left: 60px;
+}
+
+.ic-play {
+    position: relative;
+    display: inline-block;
+    width: 420px;  /* Dimensions conservées */
+    height: 255px;  /* Dimensions conservées */
+    margin-right: 15px;
+}
+
+.ida, .ilaime, .coldwar, .dansleau {
+    width: 100%; /* Remplit le conteneur parent */
+    height: 100%; /* Remplit le conteneur parent */
+}
+
+.total {
+    position: absolute;
+    width: 97px;  /* Dimensions conservées */
+    height: 97px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oval {
+    width: 97px;  /* Dimensions conservées */
+    height: 97px;
+}
+
+.triangle {
+    position: absolute;
+    width: 43.65px;
+    height: 50.92px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.comp{
+    display: flex;
+    flex-direction: row;
+}
+.agdodo{
     margin-left: 59px;
+    margin-right: 53px;
+    width: 409px;
+    height: 24px;
 }
-.categori{
-    width: 1458px;
-    height: 158px;
-    margin-top: 55px;
+.nvague{
+   
+    margin-right: 53px;
+    width: 370px;
+    height: 24px;
+}
+.direcanne{
+    
+    margin-right: 53px;
+    width: 265px;
+    height: 24px;
+}
+.boliwood{
+
+    
+    width: 312px;
+    height: 24px;
+}
+
+.underline{
+    width: 407px;
+    height: 4px;
+    margin-top: 15px;
+    margin-bottom: 55px;
     margin-left: 60px;
 }
+
+.pro{
+    
+}
+

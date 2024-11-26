@@ -1,16 +1,16 @@
 import React from "react";
-import logo from "../assets/logo-Netflix.svg";
-import decouverte from "../assets/Découverte.svg";
-import serie from "../assets/Séries TV.svg";
-import film from "../assets/Films.svg";
-import Programmes from "../assets/Programmes_originaux..svg";
-import ajout from "../assets/Ajouts récents.svg";
-import liste from "../assets/Ma liste.svg";
-import search from "../assets/search.svg";
-import jeunesse from "../assets/JEUNESSE.svg";
-import notif from "../assets/notification.svg";
-import avatar from "../assets/avatar.svg";
-import deroulant from "../assets/deroulant.svg";
+import logo from "../assets-nav/logo-Netflix.svg";
+import decouverte from "../assets-nav/Découverte.svg";
+import serie from "../assets-nav/Séries TV.svg";
+import film from "../assets-nav/Films.svg";
+import Programmes from "../assets-nav/Programmes_originaux..svg";
+import ajout from "../assets-nav/Ajouts récents.svg";
+import liste from "../assets-nav/Ma liste.svg";
+import search from "../assets-nav/search.svg";
+import jeunesse from "../assets-nav/JEUNESSE.svg";
+import notif from "../assets-nav/notification.svg";
+import avatar from "../assets-nav/avatar.svg";
+import deroulant from "../assets-nav/deroulant.svg";
 import "../components/Navbar.css";
 
 function Navbar() {

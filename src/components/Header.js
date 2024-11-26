@@ -1,11 +1,11 @@
 import React from "react";
 import "../components/Header.css";
-import netflix from "../assets/NETFLIX.svg";
-import original from "../assets/ORIGINAL.svg";
-import narcos from "../assets/logo-narcos.svg";
-import description from "../assets/Description.svg";
-import play from "../assets/btn-play.svg";
-import mylist from "../assets/btn-my-list.svg";
+import netflix from "../assets-header/NETFLIX.svg";
+import original from "../assets-header/ORIGINAL.svg";
+import narcos from "../assets-header/logo-narcos.svg";
+import description from "../assets-header/Description.svg";
+import play from "../assets-header/btn-play.svg";
+import mylist from "../assets-header/btn-my-list.svg";
 
 function Header() {
 return (
