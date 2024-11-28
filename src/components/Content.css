@@ -7,8 +7,6 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    min-width: 1785px;
-    height: 1894px;
 }
 
 .revoir {
@@ -108,6 +106,7 @@ body {
 .ida, .ilaime, .coldwar, .dansleau {
     width: 100%; /* Remplit le conteneur parent */
     height: 100%; /* Remplit le conteneur parent */
+    
 }
 
 .total {
@@ -135,36 +134,37 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.comp{
+
+.comp {
     display: flex;
     flex-direction: row;
 }
-.agdodo{
+
+.agdodo {
     margin-left: 59px;
     margin-right: 53px;
     width: 409px;
     height: 24px;
 }
-.nvague{
-   
+
+.nvague {
     margin-right: 53px;
     width: 370px;
     height: 24px;
 }
-.direcanne{
-    
+
+.direcanne {
     margin-right: 53px;
     width: 265px;
     height: 24px;
 }
-.boliwood{
 
-    
+.boliwood {
     width: 312px;
     height: 24px;
 }
 
-.underline{
+.underline {
     width: 407px;
     height: 4px;
     margin-top: 15px;
@@ -172,7 +172,81 @@ body {
     margin-left: 60px;
 }
 
-.pro{
-    
+.pro2 {
+    width: 326px;
+    height: 24px;
+    margin-left: 60px;
 }
 
+.icrow {
+    width: 5.25px;
+    height: 13.47px;
+    margin-left: 425.81px;
+    margin-top: 360px;
+}
+
+.objet {
+    display: flex;
+    flex-direction: row;
+    margin-top: 11px;
+}
+
+.ob1, .ob2, .ob3, .ob4, .ob5, .ob6, .ob7, .ob8 {
+    margin-right: 4px;
+    width: 217px;
+    height: 434px;
+}
+
+.ob1 {
+    margin-left: 59.86px;
+}
+
+.ob8 {
+    margin-right: 162.86px;
+}
+
+.categori{
+    width: 99px;
+    height: 24px;
+    margin-left: 60px;
+    margin-top: 55px;
+}
+
+.category {
+    margin-left: 60px;
+    margin-top: 10px;
+    align-items: end;
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Espace entre les éléments */
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.catetitre {
+    display: flex;
+    flex-direction: column;
+    width: 81px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 44px;
+    margin-bottom: 56px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.languette {
+    width: 204px; /* Conserve la largeur spécifiée */
+    height: 12px; /* Ajuste la hauteur */
+    margin-top: 87px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

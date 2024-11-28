@@ -6,50 +6,127 @@
    margin-top: 125px;
    margin-bottom: 60px;
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
 
-}
-
-.Col{
-    display: flex;
-    flex-direction: column;
-    margin-left: 149px;
 }
 .social{
-    width: 180px;
-    height: 26px;
-    margin-top: 125px;
-    margin-bottom: 22px;
-}
-.column1{
-    width: 123px;
-    height: 109px;
-    margin-bottom: 30px;
-}
-.under{
-    width: 130px;
-    height: 62px;
-    margin-bottom: 60px;
-}
-.column2{
-    width: 143px;
-    height: 78px;
-    margin-left: 124px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+    align-items: start;
     margin-right: 124px;
-    margin-top: 174px;
-    margin-bottom: 182px;
+} 
+.facebook{
+    width: 25.71px;
+    height: 25.71px;
+    margin-right: 24px;
 }
-.column3{
-    width: 147px;
-    height: 78px;
+.instagram{
+    width: 25.71px;
+    height: 25.71px;
+    margin-right: 24px;
+}
+.twitter{
+    width: 25.71px;
+    height: 25.71px;
+    margin-right: 24px;
+}
+.youtube{
+    width: 25.71px;
+    height: 25.71px;
+    margin-right: 24px;
+}
+.audio{
+    width: 132px;
+    height: 17px;
+    margin-top: 22px;
+}
+.presse{
+    width: 42px;
+    height: 17px;
+    margin-top: 14px;
+
+}
+.confidentialité{
+    width: 97px;
+    height: 17px;
+    margin-top: 14px;
+
+}
+.contacter{
+    width: 100px;
+    height: 17px;
+    margin-top: 14px;
+
+}
+.servicecode{
+    width: 92px;
+    height: 30px;
+    margin-top: 30px;
+
+}
+.code{
+    width: 138px;
+    height: 13px;
+    margin-top: 20px;
+}
+
+.totalcolumn{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
     margin-right: 124px;
-    margin-top: 174px;
-    margin-bottom: 182px;
+} 
+.autodescription{
+    width: 105px;
+    height: 17px;
+    margin-top: 67px;
+
 }
-.column4{
-    width: 144px;
-    height: 78px;
-    margin-right: 362px;
-    margin-top: 174px;
-    margin-bottom: 182px;
+.investisseur{
+   width: 150px;
+    height: 17px;
+
+}
+.information{
+    width: 137px;
+    height: 17px;
+
+}
+.centreaide{
+    width: 87px;
+    height: 17px;
+    margin-top: 67px;
+
+}
+.recrutement{
+    width: 87px;
+    height: 17px;
+
+
+}
+.cookies{
+    width: 148px;
+    height: 17px;
+
+}
+.cadeaux{
+    width: 102px;
+    height: 17px;
+    margin-top: 67px;
+
+}
+.condition{
+   width: 152px;
+    height: 17px;
+
+}
+.mention{
+    width: 112px;
+    height: 17px;
+
 }
